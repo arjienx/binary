@@ -2,12 +2,12 @@ DOMAINS = ["k.coldrave.eu.org"]
 DATA_ENCRYPTION_METHOD = 1
 ENCRYPTION_KEY = "acbb357843af2cedf54e531577d9e765"
 
-PROTOCOL_TYPE = "TCP"
+PROTOCOL_TYPE = "SOCKS5"
 LISTEN_IP = "127.0.0.1"
 LISTEN_PORT = 18000
 SOCKS5_AUTH = false
-SOCKS5_USER = "master_dns_vpn"
-SOCKS5_PASS = "master_dns_vpn"
+SOCKS5_USER = "arjienx"
+SOCKS5_PASS = "arjienx"
 
 LOCAL_DNS_ENABLED = false
 LOCAL_DNS_IP = "127.0.0.1"
