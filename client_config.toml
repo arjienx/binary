@@ -71,7 +71,7 @@ SOCKS5_PASS = "master_dns_vpn"
 
 # When true, the client exposes a local DNS server on LOCAL_DNS_IP:LOCAL_DNS_PORT.
 LOCAL_DNS_ENABLED = false
-LOCAL_DNS_IP = "8.8.8.8"
+LOCAL_DNS_IP = "[2001:4860:4860::8888]"
 LOCAL_DNS_PORT = 53
 
 # Local DNS cache sizing.
