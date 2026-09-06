@@ -16,7 +16,7 @@
 # Must match server DOMAIN values exactly.
 # At least one domain is required.
 # All domains must be handled by the same server. Do not use different domains across multiple servers.
-DOMAINS = ["v.domain.com"]
+DOMAINS = ["k.coldrave.eu.org"]
 
 # Encryption method for tunnel payloads.
 # Allowed values:
@@ -32,7 +32,7 @@ DATA_ENCRYPTION_METHOD = 1
 # Shared encryption key.
 # Required on the client.
 # Must match the server-side key file contents.
-ENCRYPTION_KEY = "smoke-test-key-12345678901234567890123456789012"
+ENCRYPTION_KEY = "acbb357843af2cedf54e531577d9e765"
 
 # ------------------------------------------------------------------------------
 # 2) Local Proxy Listener
@@ -45,7 +45,7 @@ ENCRYPTION_KEY = "smoke-test-key-12345678901234567890123456789012"
 # Allowed values:
 # "SOCKS5" = normal proxy mode for browsers/apps
 # "TCP"    = raw TCP tunnel mode
-PROTOCOL_TYPE = "SOCKS5"
+PROTOCOL_TYPE = "TCP"
 
 # Local bind address for the client proxy.
 # For local-only use, "127.0.0.1" is fine.
@@ -71,7 +71,7 @@ SOCKS5_PASS = "master_dns_vpn"
 
 # When true, the client exposes a local DNS server on LOCAL_DNS_IP:LOCAL_DNS_PORT.
 LOCAL_DNS_ENABLED = false
-LOCAL_DNS_IP = "127.0.0.1"
+LOCAL_DNS_IP = "8.8.8.8"
 LOCAL_DNS_PORT = 53
 
 # Local DNS cache sizing.
